@@ -1,0 +1,64 @@
+/* xxl device */
+@media (min-width:1400px) {
+
+}
+/* xl device */
+@media (min-width:1200px) and (max-width:1399.98) {
+
+}
+/* lg device  */
+@media (min-width: 992px) and (max-width: 1199.98) {
+
+    #banner .row .text h1 {
+        font-size: 55px;
+        font-weight: 800;
+        letter-spacing: 22px;
+    }
+    #about .div-info-icon .icon-text {
+        border-right: 1px solid #7e8287;
+        text-align: center;
+        padding: 0 16px;
+    }
+    #about .container .div-info {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+}
+/* sm device */
+@media (min-width:768px) and (max-width:991.98) {
+
+    #banner {
+        height: 663px;
+    }
+    #about .container .div-info {
+        padding-bottom: 80px;
+    }
+    #banner .row .text h1 {
+        font-size: 45px;
+        letter-spacing: 18px;
+    }
+    #banner .row .text h3 {
+        font-size: 25px;
+        font-weight: 400;
+    }
+    #about .div-info-icon .icon-text {
+        padding: 28px 45px;
+    }
+    #service {
+        padding: 50px 0;
+    }
+    #service .div-info > div {
+        padding-bottom: 0px;
+    }
+    #work .row .pic .over {
+        font-size: 11px;
+    }
+}
+/* md device */
+@media (min-width:576px) and (max-width:767.98) {
+
+}
+/* xs device */
+@media (max-width:1399.98) {
+
+}
